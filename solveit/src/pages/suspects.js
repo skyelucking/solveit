@@ -50,7 +50,7 @@ class Suspects extends Component {
       newArray = suspects;
     }
     for (let i = 0; i < suspects.length; i++) {
-      if (suspects[i].name.last.toLowerCase().startsWith(this.state.Search)) {
+      if (suspects[i].name.first.toLowerCase().startsWith(this.state.Search)) {
         newArray.push(suspects[i]);
       }
     }
@@ -77,15 +77,14 @@ class Suspects extends Component {
           </div>
           <button className="btn btn-primary" onClick={this.sortByName}>
             {" "}
-            Sort
+            Sort By Name
           </button>
         </div>
         <div className="container justify-content-center">
         <header>
-            <h1>All Smiles Employee Directory</h1>
+            <h1>Suspect List</h1>
           </header>
-          <button>Sort</button>
-          <button>Filter By Name</button>
+          
           <SuspectTable
             
             suspects={suspects.filter(item => {
