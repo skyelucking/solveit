@@ -13,7 +13,7 @@ class Suspects extends Component {
     componentDidMount () {
             API.getRandomSuspects().then( response => {
                 this.setState({
-                    sustpects: response.data.results,
+                    suspects: response.data.results,
                     searchArray: response.data.results
                 })
             })
@@ -25,7 +25,7 @@ class Suspects extends Component {
             if (!searchArray === []){
                 sortedArray = searchArray;
            } if (!sorted) {
-               sortedArray = suspects.revers()
+               sortedArray = suspects.reverse()
            }
            this.setState(
                {

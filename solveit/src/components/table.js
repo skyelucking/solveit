@@ -2,13 +2,14 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container } from "react-bootstrap";
 import './table.css';
+import '../pages/suspects';
 
 function Table(props) {
     
     const suspects = props.suspects
     
     return (
-        <div className="App">
+        <div className="Table">
           <header>
             <h1>All Smiles Employee Directory</h1>
           </header>
@@ -26,9 +27,7 @@ function Table(props) {
             <Table sortable celled fixed>
           <Table.Header>
             <Table.Row>
-              <Table.HeaderCell
-              
-              >
+              <Table.HeaderCell                            >
                 Avatar
               </Table.HeaderCell>
               <Table.HeaderCell
@@ -42,7 +41,7 @@ function Table(props) {
             </Table.Row>
           </Table.Header>
           <Table.Body>
-            {suspects.map((suspects, i) => (
+            {data.map((suspects, i) => (
               <Table.Row key={i}>
                 <Table.Cell>
                   <img
