@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/solveit/static/css/main.04fbe6ba.chunk.css",
+    "main.js": "/solveit/static/js/main.4011ca35.chunk.js",
+    "main.js.map": "/solveit/static/js/main.4011ca35.chunk.js.map",
+    "runtime-main.js": "/solveit/static/js/runtime-main.d358094c.js",
+    "runtime-main.js.map": "/solveit/static/js/runtime-main.d358094c.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/solveit/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.861312c8.chunk.js": "/solveit/static/js/2.861312c8.chunk.js",
+    "static/js/2.861312c8.chunk.js.map": "/solveit/static/js/2.861312c8.chunk.js.map",
+    "index.html": "/solveit/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/solveit/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.04fbe6ba.chunk.css.map": "/solveit/static/css/main.04fbe6ba.chunk.css.map",
+    "static/js/2.861312c8.chunk.js.LICENSE.txt": "/solveit/static/js/2.861312c8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d358094c.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.861312c8.chunk.js",
+    "static/css/main.04fbe6ba.chunk.css",
+    "static/js/main.4011ca35.chunk.js"
+  ]
+}
