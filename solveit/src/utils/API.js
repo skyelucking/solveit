@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const RandomUrl = 'https://randomuser.me/api/?results=15'
+const RandomUrl = 'https://randomuser.me/api/?results=25'
 
 const API = {
     search: function() {

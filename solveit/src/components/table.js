@@ -4,6 +4,7 @@ import { Container, Table } from "react-bootstrap";
 import "./table.css";
 
 function SuspectTable(props) {
+
   const suspects = props.suspects;
   console.log(props);
   return suspects.length ? (
@@ -19,7 +20,7 @@ function SuspectTable(props) {
         <Table striped bordered hover size="sm">
           <thead>
             <tr>
-            <th>Profile</th>
+            <th>Profile/ID</th>
               <th>Name</th>
               <th>Email</th>
               <th>Cell</th>
@@ -27,10 +28,10 @@ function SuspectTable(props) {
             </tr>
           </thead>
           <tbody>
-            {suspects.map((suspect) => (
+            {suspects.sort().map((suspect) => (
               <tr>
                 <td>
-                  <img src={suspect.picture.large}></img>
+                  <img src={suspect.picture.large}></img>{suspect.uuid}
                 </td>
                 <td>
                   {suspect.name.first} {suspect.name.last}

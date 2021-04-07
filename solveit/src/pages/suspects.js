@@ -12,7 +12,7 @@ class Suspects extends Component {
 
   componentDidMount() {
     API.search().then((response) => {
-        console.log(response.data.results)
+      console.log(response.data.results);
       this.setState({
         suspects: response.data.results,
         searchArray: response.data.results,
@@ -62,9 +62,18 @@ class Suspects extends Component {
 
   render() {
     const { suspects = [], search } = this.state;
-    console.log(suspects)
+    console.log(suspects);
     return (
+      
       <div>
+         <header  >
+            <h1 style={{
+          textAlign: "center",
+          fontSize: "1.5em",
+          fontFamily: "Franklin Gothic Medium",
+          color: "red",
+          }}>There is only 1 Killer...</h1>
+          </header>
         <div className="row input-group mb-3 justify-content-center">
           <div className="col-sm-4">
             <input
@@ -75,23 +84,33 @@ class Suspects extends Component {
               onChange={this.handleSearch}
             />
           </div>
-          <button className="btn btn-primary" onClick={this.sortByName}>
+          <button className="btn btn-primary" onClick={this.sortByName} style={{
+          color: "#000",
+          margin: "5px",
+          
+        }}>
             {" "}
-            Sort By Name
+            Sort By First Name
+          </button>
+          <button className="btn btn-primary" onClick={this.sortByName} style={{
+          color: "#000",
+          margin: "5px",
+          
+        }}>
+            {" "}
+            Sort By Last Name
           </button>
         </div>
         <div className="container justify-content-center">
-        <header>
-            <h1>Suspect List</h1>
-          </header>
           
           <SuspectTable
-            
-            suspects={suspects.filter(item => {
-                if (!search) return true;
-                if (item.name.first.toLowerCase().indexOf(search) !== -1) return true;
-                if (item.name.last.toLowerCase().indexOf(search) !== -1) return true;
-                return false;
+            suspects={suspects.filter((item) => {
+              if (!search) return true;
+              if (item.name.first.toLowerCase().indexOf(search) !== -1)
+                return true;
+              if (item.name.last.toLowerCase().indexOf(search) !== -1)
+                return true;
+              return false;
             })}
           />
         </div>
