@@ -4,6 +4,10 @@ import { Container, Table } from "react-bootstrap";
 import "./table.css";
 
 function SuspectTable(props) {
+var rooms = ["Kitchen","Hall","Ballroom","Conservatory", "Dining Room", "Cellar", "Billiard Room", "Library", "Lounge"];
+var randRoom = rooms[Math.floor(Math.random() * rooms.length)];
+var weapons = ["Knife","Candlestick","Revolver","Rope", "Lead Pipe", "Wrench"];
+var randWeapon = weapons[Math.floor(Math.random() * weapons.length)];
 
   const suspects = props.suspects;
   console.log(props);
@@ -24,12 +28,15 @@ function SuspectTable(props) {
               <th>Name</th>
               <th>Email</th>
               <th>Cell</th>
-              <th>City/State/Nation</th>
+              {/* <th>City/State/Nation</th> */}
+              <th>In The..</th>
+              <th>With The..</th>
             </tr>
           </thead>
           <tbody>
             {suspects.sort().map((suspect) => (
-              <tr>
+             
+                           <tr>
                 <td>
                   <img src={suspect.picture.large}></img>{suspect.uuid}
                 </td>
@@ -38,7 +45,9 @@ function SuspectTable(props) {
                 </td>
                 <td><a href="mailto:{suspect.email}">{suspect.email}</a></td> 
                 <td>{suspect.cell}</td>
-                <td>{suspect.location.city}<br></br>{suspect.location.state}<br></br> {suspect.location.country}<br></br></td>
+                {/* <td>{suspect.location.city}<br></br>{suspect.location.state}<br></br> {suspect.location.country}<br></br></td> */}
+                <td>{randRoom}</td>
+                <td>{randWeapon}</td>
               </tr>
             ))}
           </tbody>
