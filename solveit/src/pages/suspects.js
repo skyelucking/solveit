@@ -12,7 +12,7 @@ class Suspects extends Component {
 
   componentDidMount() {
     API.search().then((response) => {
-      console.log(response.data.results);
+      // console.log(response.data.results);
       this.setState({
         suspects: response.data.results,
         searchArray: response.data.results,
@@ -98,7 +98,7 @@ class Suspects extends Component {
 
   render() {
     const { suspects = [], search } = this.state;
-    console.log(suspects);
+    // console.log(suspects);
     return (
       <div>
         <header>
