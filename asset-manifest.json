@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/solveit/static/css/main.04fbe6ba.chunk.css",
-    "main.js": "/solveit/static/js/main.be4e4e9f.chunk.js",
-    "main.js.map": "/solveit/static/js/main.be4e4e9f.chunk.js.map",
+    "main.js": "/solveit/static/js/main.86a9a204.chunk.js",
+    "main.js.map": "/solveit/static/js/main.86a9a204.chunk.js.map",
     "runtime-main.js": "/solveit/static/js/runtime-main.d358094c.js",
     "runtime-main.js.map": "/solveit/static/js/runtime-main.d358094c.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/solveit/static/css/2.4c97ca4f.chunk.css",
@@ -18,6 +18,6 @@
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.861312c8.chunk.js",
     "static/css/main.04fbe6ba.chunk.css",
-    "static/js/main.be4e4e9f.chunk.js"
+    "static/js/main.86a9a204.chunk.js"
   ]
 }
