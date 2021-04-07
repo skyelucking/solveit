@@ -9,7 +9,7 @@ function App() {
     <div  styles={{ backgroundImage:`/assets/board.jpg `}}>     
     </div>
     <header>
-      <img src="/assets/solve_header.png" class="App-header"></img>
+      <img src="https://skyelucking.github.io/solveit/assets/solve_header.png" class="App-header"></img>
     </header>
     
       <div> 

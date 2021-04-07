@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# Solve It! Who was the culprit? Search and Sort until there is only 1...
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Technology Used
+*This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+* Node.js<br>
+* Express<br>
+* React
+* Randomuser.me - API for user data
 
-## Available Scripts
+## User Story
+As a detective I want to be able to view my entire suspects list so I have quick access to their information. I want to be able to sort by first and last name as well as filter by letters in the first or last name. 
 
-In the project directory, you can run:
+## Screen Shots
+Detective is presented with a list of 25 suspects. Who done it?! 
+<img src="https://skyelucking.github.io/solveit/assets/SS1.png">
+To help with their investigation, they may filter by letters in a name.
+<img src="https://skyelucking.github.io/solveit/assets/SS2.png">
+They may also sort suspects by first or last name.
+<img src="https://skyelucking.github.io/solveit/assets/SS3.png">
 
-### `npm start`
+## Github Pages Link to Deployed App
+<a href="https://skyelucking.github.io/solveit/">https://skyelucking.github.io/solveit/</a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Github Repo
+<a href="https://github.com/skyelucking/solveit">https://github.com/skyelucking/solveit</a>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<hr>
+<h1>Link to Portfolio Page Where Project Will Be Highlighted</h1>
+<a href="https://skyelucking.github.io/codingBootcamp_portfolio.html">https://skyelucking.github.io/codingBootcamp_portfolio.html</a>
 
-### `npm test`
+<h1>Now here is your joke...</h1> <br>
+Q: It's not that my family refuses to play deduction board games with me....
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<br>
+<br>
+<br>
+<em>– A: They just haven't a Clue.
+</em>
