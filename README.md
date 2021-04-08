@@ -1,4 +1,4 @@
-# Solve It! Who was the culprit? Search and Sort until there is only 1...
+# Solve It! Who was the culprit? Search and Sort until there is only 1...and you have your killer! Da-da-daaaaaa (Spooky Music)
 
 ## Technology Used
 *This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -8,7 +8,7 @@
 * Randomuser.me - API for user data
 
 ## User Story
-As a detective I want to be able to view my entire suspects list so I have quick access to their information. I want to be able to sort by first and last name as well as filter by letters in the first or last name. 
+As a detective I want to be able to view my entire suspects list so I have quick access to their information. I want to be able to sort by first and last name as well as filter by letters in the first or last name. Was it the random person in the random room with the random weapon? Yes, probably!
 
 ## Screen Shots
 Detective is presented with a list of 25 suspects. Who done it?! 
