@@ -11,12 +11,12 @@
 As a detective I want to be able to view my entire suspects list so I have quick access to their information. I want to be able to sort by first and last name as well as filter by letters in the first or last name. Was it the random person in the random room with the random weapon? Yes, probably!
 
 ## Screen Shots
-Detective is presented with a list of 25 suspects. Who done it?! 
-<img src="https://skyelucking.github.io/solveit/assets/SS1.png">
+Detective is presented with a list of 25 suspects, where they were and with what weapon they could have used.... Who done it?! 
+<img src="/solveit/assets/SS1.png">
 To help with their investigation, they may filter by letters in a name.
-<img src="https://skyelucking.github.io/solveit/assets/SS2.png">
+<img src="/solveit/assets/SS2.png">
 They may also sort suspects by first or last name.
-<img src="https://skyelucking.github.io/solveit/assets/SS3.png">
+<img src="/solveit/assets/SS3.png">
 
 ## Github Pages Link to Deployed App
 <a href="https://skyelucking.github.io/solveit/">https://skyelucking.github.io/solveit/</a>
