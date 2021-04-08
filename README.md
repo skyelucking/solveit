@@ -12,11 +12,11 @@ As a detective I want to be able to view my entire suspects list so I have quick
 
 ## Screen Shots
 Detective is presented with a list of 25 suspects, where they were and with what weapon they could have used.... Who done it?! 
-<img src="/solveit/assets/SS1.png">
+<img src="https://skyelucking.github.io/solveit/assets/SS1.png">
 To help with their investigation, they may filter by letters in a name.
-<img src="/solveit/assets/SS2.png">
+<img src="https://skyelucking.github.io/solveit/assets/SS2.png">
 They may also sort suspects by first or last name.
-<img src="/solveit/assets/SS3.png">
+<img src="https://skyelucking.github.io/solveit/assets/SS3.png">
 
 ## Github Pages Link to Deployed App
 <a href="https://skyelucking.github.io/solveit/">https://skyelucking.github.io/solveit/</a>
