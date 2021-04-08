@@ -1,7 +1,7 @@
-import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Table } from "react-bootstrap";
+ ​import "bootstrap/dist/css/bootstrap.min.css";
 import "./table.css";
+​
 
 function SuspectTable(props) {
   const rooms = [
@@ -15,7 +15,8 @@ function SuspectTable(props) {
     "Library",
     "Lounge",
   ];
-const weapons = [
+​
+  const weapons = [
     "Knife",
     "Candlestick",
     "Revolver",
@@ -23,10 +24,11 @@ const weapons = [
     "Lead Pipe",
     "Wrench",
   ];
-
+​
   console.log(props);
-
-const suspects = props.suspects;
+​
+  const suspects = props.suspects;
+​
   return suspects.length ? (
     <div className="Table">
       <Container
@@ -82,5 +84,5 @@ const suspects = props.suspects;
     <div>loading...</div>
   );
 }
-
+​
 export default SuspectTable;
